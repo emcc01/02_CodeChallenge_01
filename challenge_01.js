@@ -9,16 +9,21 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 "Die Summe der Zahlen ist: summe"
 */
 
+// let x, y;
+// x = prompt("Bitte geben Sie eine Zahl ein");
+// y = prompt("Bitte geben Sie eine 2. Zahl ein");
+// let summe;
+// summe = x + y;
+// console.log(" Die Summe der Zahlen ist: " + summe);
+// prompt gibt string zurück, umwandeln nötig:
 
-
-
-let number1, number2;
-number1 = prompt("Bitte geben Sie eine Zahl ein");
-number2 = prompt("Bitte geben Sie eine 2. Zahl ein");
+let x, y;
+x = prompt("Bitte geben Sie eine Zahl ein");
+y = prompt("Bitte geben Sie eine 2. Zahl ein");
+x = parseInt(x);
+y = parseInt(y);
 
 let summe;
-summe = number1 + number2;
+summe = x + y;
 
-
-console.log("Summe: " + summe);
-
+console.log(" Die Summe der Zahlen ist: " + summe);
