@@ -13,6 +13,7 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 // x = prompt("Bitte geben Sie eine Zahl ein");
 // y = prompt("Bitte geben Sie eine 2. Zahl ein");
 // let summe;
+
 // summe = x + y;
 // console.log(" Die Summe der Zahlen ist: " + summe);
 // prompt gibt string zurück, umwandeln nötig:
